@@ -32,25 +32,36 @@ Below are the original Credits:
 
 /* Font */
   --font: "OpenDyslexic"; /* "OpenDyslexic" or "Gg Sans" */
-  --font-size-multiplier: 0.4;
-  --line-height: 110%
+  --font-size-multiplier: 0.4; /* Will multiply all important text by this amount */
+  --line-height: 110% /* The amount of spacing between lines of text where possible */
 
   /* Client colour */
-  /* --- doesnt work for sm reason, so just use the "ClientTheme" plugin by Binaries and f51 on vencord --- */
- /* --hue: 130;  
-  --saturation: 22%; */
+  /* --- use the "ClientTheme" vencord plugin --- */
 
   /* Accent colour */
   --brand-500: hsl(168, 22%, 50%);   /* changes the accent colour ( not a ClientTheme feature )
   
 /* ----------------------------------------- */
-  /* toggle display */
+  /* display toggles */
 /* ----------------------------------------- */
+
+  /* textbox */
+    --display-gif-button: none;                     /* GIF button in chat bar */
+    --display-sticker-buttons: none;                /* Sticker button in chat bar & emoji picker */
+
+  /* toolbar */
+  --display-inbox-button: none;     /* inbox button on the top right of the screen*/
+  --display-start-video-call-button: none;     /*start voice call button on the top right of the screen*/
+
+  /* other stuff */
+  --display-sticker-picker-tab: unset;              /* "Stickers" tab selector on top of the emoji picker */
+
+/* ----------------------------------------- */
+/* nitro ads display toggles */
+/* ----------------------------------------- */
+
   /* nitro */
   --display-badges: none;                         /* Nitro and Booster badges on user profiles */
-  --display-gif-button: none;                     /* GIF button in chat bar */
-  --display-sticker-buttons: none;                /* Sticker button in chat bar & emoji picker */
-  --display-sticker-picker-tab: unset;              /* "Stickers" tab selector on top of the emoji picker */
   --display-app-launcher: none;                   /* App launcher right of chat bar */
   --bool-super-reaction-hide-anim: true;          /* Replace Super Reactions with a blink animation */
   --display-super-reactions: unset;               /* Hide super reactions entirely */
@@ -66,9 +77,6 @@ Below are the original Credits:
   --display-settings-gift-inventory-tab: unset;   /* Settings menu Gift Inventory tab */
   --display-settings-billing-tab: none;    /* Settings menu Billing tab */
   
-  /* toolbar */
-  --display-inbox-button: none;     /* inbox button on the top right of the screen*/
-  --display-start-video-call-button: none;     /*start voice call button on the top right of the screen*/
 }
 
 /* ------------------ */
