@@ -83,6 +83,7 @@ Below are the original Credits:
 
 div{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: wrap; line-height: var(--line-height);}
 section{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: wrap; line-height: var(--line-height);}
+h{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: wrap; line-height: var(--line-height)*1.2;}
 
 
 /* ------------------ */
