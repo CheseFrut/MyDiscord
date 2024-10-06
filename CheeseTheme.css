@@ -34,12 +34,13 @@ Below are the original Credits:
   --font-size-multiplier: 0.4;
   --line-height: 110%
 
-  /* Client colour --- doesnt work for sm reason, so just use client theme plugin on vencord --- */
+  /* Client colour */
+  /* --- doesnt work for sm reason, so just use the "ClientTheme" plugin by Binaries and f51 on vencord --- */
  /* --hue: 130;  
   --saturation: 22%; */
 
   /* Accent colour */
-  --brand-500: hsl(168, 22%, 50%);
+  --brand-500: hsl(168, 22%, 50%);   /* changes the accent colour ( not a ClientTheme feature )
   
 /* ----------------------------------------- */
   /* toggle display */
