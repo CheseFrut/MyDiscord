@@ -31,6 +31,7 @@ Below are the original Credits:
 /* ----------------------------------------- */
 
 /* Font */
+  --font: "OpenDyslexic"; /* "OpenDyslexic" or "Gg Sans" */
   --font-size-multiplier: 0.4;
   --line-height: 110%
 
@@ -79,7 +80,8 @@ Below are the original Credits:
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold.otf); font-weight: bold; font-style: normal; }
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold-Italic.otf); font-weight: bold; font-style: Italic; }
 
-body{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier);  line-height: var(--line-height); }
+  body{font-family: var(--font);}
+  body{font-size-adjust: var(--font-size-multiplier);  line-height: var(--line-height); }
 
 /* ------------------ */
 /* Hide Nitro upsells */
