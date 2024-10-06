@@ -25,6 +25,21 @@ Below are the original Credits:
 /* ----------------------------------------- */
 
 :root {
+
+/* ----------------------------------------- */
+  /* App colours */
+/* ----------------------------------------- */
+
+  /* Client colour */
+  --hue: 130;
+  --saturation: 22%;
+  /* Accent colour */
+  --brand-500: hsl(168, 22%, 50%);
+  
+/* ----------------------------------------- */
+  /* toggle display */
+/* ----------------------------------------- */
+  /* nitro */
   --display-badges: none;                         /* Nitro and Booster badges on user profiles */
   --display-gif-button: none;                     /* GIF button in chat bar */
   --display-sticker-buttons: none;                /* Sticker button in chat bar & emoji picker */
@@ -36,6 +51,7 @@ Below are the original Credits:
   --display-active-now: unset;                    /* Active Now column in friends list */
   --display-server-settings-boost-tab: none;      /* Server settings menu Boost tab */
 
+  /*nitro in settings*/
   --display-settings-billing-header: unset;       /* Settings menu Billing Settings header */
   --display-settings-nitro-tab: none;             /* Settings menu Nitro tab */
   --display-settings-server-boost-tab: none;      /* Settings menu Server Boost tab */
@@ -43,9 +59,19 @@ Below are the original Credits:
   --display-settings-gift-inventory-tab: unset;   /* Settings menu Gift Inventory tab */
   --display-settings-billing-tab: none;    /* Settings menu Billing tab */
   
+  /* toolbar */
   --display-inbox-button: none;     /* inbox button on the top right of the screen*/
   --display-start-video-call-button: none;     /*start voice call button on the top right of the screen*/
 }
+
+
+/* custom font */
+ font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Regular.otf); font-weight: regular; font-style: normal; }
+ font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Italic.otf); font-weight: regular; font-style: Italic; }
+ font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold.otf); font-weight: bold; font-style: normal; }
+ font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold-Italic.otf); font-weight: bold; font-style: Italic; }
+
+p{ font-family: OpenDyslexic; } 
 
 /* ------------------ */
 /* Hide Nitro upsells */
