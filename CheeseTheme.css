@@ -34,9 +34,9 @@ Below are the original Credits:
   --font-size-multiplier: 0.4;
   --line-height: 110%
 
-  /* Client colour */
-  --hue: 130;
-  --saturation: 22%;
+  /* Client colour --- doesnt work for sm reason, so just use client theme plugin on vencord --- */
+ /* --hue: 130;  
+  --saturation: 22%; */
 
   /* Accent colour */
   --brand-500: hsl(168, 22%, 50%);
