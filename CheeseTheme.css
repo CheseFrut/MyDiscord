@@ -66,12 +66,14 @@ Below are the original Credits:
 
 
 /* custom font */
- font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Regular.otf); font-weight: regular; font-style: normal; }
- font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Italic.otf); font-weight: regular; font-style: Italic; }
- font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold.otf); font-weight: bold; font-style: normal; }
- font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold-Italic.otf); font-weight: bold; font-style: Italic; }
 
-p{ font-family: OpenDyslexic; } 
+
+ @font-face { font-family: OpenDyslexic-Regular; src: url(opendyslexic-0.91.12/OpenDyslexic-Regular.otf); font-weight: regular; font-style: normal; }
+ @font-face { font-family: OpenDyslexic-Italic; src: url(opendyslexic-0.91.12/OpenDyslexic-Italic.otf); font-weight: regular; font-style: Italic; }
+ @font-face { font-family: OpenDyslexic-Bold; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold.otf); font-weight: bold; font-style: normal; }
+ @font-face { font-family: OpenDyslexic-Bold-Italic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold-Italic.otf); font-weight: bold; font-style: Italic; }
+
+div{ font-family: OpenDyslexic-Regular; } 
 
 /* ------------------ */
 /* Hide Nitro upsells */
