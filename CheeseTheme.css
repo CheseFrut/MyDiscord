@@ -1,9 +1,19 @@
 /**
- * @name Adblock for Discord
- * @author TheSunCat and contributors
- * @version 1.1.0
- * @description Hide all Nitro & Boost upsells on Discord!
- * @source https://codeberg.org/AllPurposeMat/Disblock-Origin
+ * @name CheeseTheme
+ * @author CheseFrut
+ * @version 1.0
+ * @Declutter Discord for my dyslexic brethren 
+ * @source https://github.com/CheseFrut/MyDiscord
+*/
+
+/**
+This is a repurpos of Adblock for discord by TheSunCat, made to convert discord into a more dyslexic friendly app
+Below are the original Credits:
+ * name Adblock for Discord
+ * author TheSunCat and contributors
+ * version 1.1.0
+ * description Hide all Nitro & Boost upsells on Discord!
+ * source https://codeberg.org/AllPurposeMat/Disblock-Origin
  */
 
 /* ----------------------------------------- */
@@ -18,6 +28,7 @@
   --display-badges: none;                         /* Nitro and Booster badges on user profiles */
   --display-gif-button: none;                     /* GIF button in chat bar */
   --display-sticker-buttons: none;                /* Sticker button in chat bar & emoji picker */
+  --display-sticker-picker-tab: unset;              /* "Stickers" tab selector on top of the emoji picker */
   --display-app-launcher: none;                   /* App launcher right of chat bar */
   --bool-super-reaction-hide-anim: true;          /* Replace Super Reactions with a blink animation */
   --display-super-reactions: unset;               /* Hide super reactions entirely */
@@ -30,7 +41,10 @@
   --display-settings-server-boost-tab: none;      /* Settings menu Server Boost tab */
   --display-settings-subscriptions-tab: none;     /* Settings menu Subscriptions tab */
   --display-settings-gift-inventory-tab: unset;   /* Settings menu Gift Inventory tab */
-  --display-settings-billing-tab: none;           /* Settings menu Billing tab */
+  --display-settings-billing-tab: none;    /* Settings menu Billing tab */
+  
+  --display-inbox-button: none;     /* inbox button on the top right of the screen*/
+  --display-start-video-call-button: none;     /*start voice call button on the top right of the screen*/
 }
 
 /* ------------------ */
@@ -244,6 +258,10 @@ div[aria-label^="Completed a Quest" i] { display: none; }
 /* General annoyances */
 /* ------------------ */
 
+/* Toolbar buttons */
+div[class="recentsIcon_ea0547"] { display: var(--display-inbox-button); }
+div[aria-label="Start Video Call"] { display: var( --display-start-video-call-button); }
+
 /* Chatbox buttons */
 button[aria-label="Open GIF picker" i] { display: var(--display-gif-button); }
 button[aria-label="Open sticker picker" i] { display: var(--display-sticker-buttons); }
@@ -251,7 +269,7 @@ button[aria-label="Send a gift" i] { display: none; }
 div[class^="channelAppLauncher_"] { display: var(--display-app-launcher); }
 
 /* Stickers tab in emoji/GIF picker (can always be opened if needed with Ctrl+S) */
-button[id="sticker-picker-tab"] { display: var(--display-sticker-buttons); }
+button[id="sticker-picker-tab"] { display: var(--display-sticker-picker-tab); }
 
 /* Avatar decorations */
 svg[class*="avatarDecoration_"] { display: var(--display-profile-effects); }
