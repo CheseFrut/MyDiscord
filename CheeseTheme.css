@@ -31,11 +31,13 @@ Below are the original Credits:
 /* ----------------------------------------- */
 
 /* Font */
-  --font-size-multiplier: 0.65;
+  --font-size-multiplier: 0.4;
+  --line-height: 110%
 
   /* Client colour */
   --hue: 130;
   --saturation: 22%;
+
   /* Accent colour */
   --brand-500: hsl(168, 22%, 50%);
   
@@ -78,8 +80,8 @@ Below are the original Credits:
 
 
 
-div{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: hidden; line-height: 140%;}
-section{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: hidden; line-height: 140%;}
+div{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: wrap; line-height: var(--line-height);}
+section{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: wrap; line-height: var(--line-height);}
 
 
 /* ------------------ */
