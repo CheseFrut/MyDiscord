@@ -64,16 +64,16 @@ Below are the original Credits:
   --display-start-video-call-button: none;     /*start voice call button on the top right of the screen*/
 }
 
-
+/* ------------------ */
 /* custom font */
-
+/* ------------------ */
 
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Regular.otf); font-weight: regular; font-style: normal; }
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Italic.otf); font-weight: regular; font-style: Italic; }
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold.otf); font-weight: bold; font-style: normal; }
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold-Italic.otf); font-weight: bold; font-style: Italic; }
 
-div{ font-family: OpenDyslexic; } 
+p{ font-family: OpenDyslexic; } 
 
 /* ------------------ */
 /* Hide Nitro upsells */
