@@ -73,7 +73,11 @@ Below are the original Credits:
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold.otf); font-weight: bold; font-style: normal; }
  @font-face { font-family: OpenDyslexic; src: url(opendyslexic-0.91.12/OpenDyslexic-Bold-Italic.otf); font-weight: bold; font-style: Italic; }
 
-body{ font-family: OpenDyslexic; } 
+
+
+div{ font-family: OpenDyslexic; font-size-adjust: 0.75; } 
+section{ font-family: OpenDyslexic; font-size-adjust: 0.75;} 
+
 
 /* ------------------ */
 /* Hide Nitro upsells */
