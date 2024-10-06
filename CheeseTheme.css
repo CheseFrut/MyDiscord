@@ -31,7 +31,7 @@ Below are the original Credits:
 /* ----------------------------------------- */
 
 /* Font */
-  --font-size-multiplier: 0.8;
+  --font-size-multiplier: 0.65;
 
   /* Client colour */
   --hue: 130;
@@ -78,8 +78,8 @@ Below are the original Credits:
 
 
 
-div{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); }
-section{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); }
+div{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: hidden; line-height: 140%;}
+section{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); overflow: hidden; line-height: 140%;}
 
 
 /* ------------------ */
