@@ -27,9 +27,11 @@ Below are the original Credits:
 :root {
 
 /* ----------------------------------------- */
-  /* App colours */
+  /* App looks */
 /* ----------------------------------------- */
 
+/* Font */
+  --font-size-multiplier: 0.2;
   /* Client colour */
   --hue: 130;
   --saturation: 22%;
@@ -75,8 +77,8 @@ Below are the original Credits:
 
 
 
-div{ font-family: OpenDyslexic; font-size-adjust: 0.75; } 
-section{ font-family: OpenDyslexic; font-size-adjust: 0.75;} 
+div{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); }
+section{ font-family: OpenDyslexic; font-size-adjust: var(--font-size-multiplier); }
 
 
 /* ------------------ */
